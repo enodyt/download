@@ -78,7 +78,7 @@ defmodule Download do
     end
   end
 
-  alias HTTPoison.{AsyncHeaders, AsyncStatus, AsyncChunk, AsyncEnd, Error}
+  alias HTTPoison.{AsyncHeaders, AsyncStatus, AsyncChunk, AsyncEnd}
 
   @wait_timeout 5000
 
